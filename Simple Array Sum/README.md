@@ -1,4 +1,4 @@
-# [Problem](https://www.hackerrank.com/challenges/simple-array-sum/problem):
+# Problem:
 
 Given an array of integers, find the sum of its elements.
 
@@ -11,3 +11,5 @@ Complete the *simpleArraySum* function in the editor below. It must return the s
 simpleArraySum has the following parameter(s):
 
 * ar: an array of integers
+
+<a href="https://www.hackerrank.com/challenges/simple-array-sum/problem" target="_blank">Click here to view the question on HackerRank!</a>
