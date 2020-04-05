@@ -1,4 +1,4 @@
-# Problem:
+# [Problem](https://www.hackerrank.com/challenges/simple-array-sum/problem):
 
 Given an array of integers, find the sum of its elements.
 
