@@ -19,3 +19,5 @@ Complete the function _diagonalDifference_ in the editor below. It must return a
 diagonalDifference takes the following parameter:
 
 - arr: an array of integers.
+
+<a href="https://www.hackerrank.com/challenges/diagonal-difference/problem" target="_blank">Click here to view the question on HackerRank!</a>
