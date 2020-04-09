@@ -31,3 +31,5 @@ $0 < p < q < 100000$
 **Output Format**
 
 Output each modified Kaprekar number in the given range, space-separated on a single line. If no modified Kaprekar numbers exist in the given range, print `INVALID RANGE`.
+
+<a href="https://www.hackerrank.com/challenges/kaprekar-numbers/problem" target="_blank">Click here to view the question on HackerRank!</a>
