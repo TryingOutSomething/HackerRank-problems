@@ -10,6 +10,8 @@ Given two positive integers $p$ and $q$ where $p$ is lower than $q$, write a pro
 
 **Function Description**
 
+# Problem:
+
 Complete the kaprekarNumbers function in the editor below. It should print the list of modified Kaprekar numbers in ascending order.
 
 kaprekarNumbers has the following parameter(s):
