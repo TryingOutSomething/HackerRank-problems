@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Result {
+class solution {
 
     public static int luckBalance(int k, List<List<Integer>> contests) {
         int totalLuck = 0;
