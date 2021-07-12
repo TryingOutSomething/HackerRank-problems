@@ -2,19 +2,20 @@ import java.util.*;
 
 class Result {
 
-    public static int alternatingCharacters(String s) {
-        char[] characters = s.toCharArray();
-        char currentCharacter = characters[0];
-        int consecutiveCharacters = 0;
+    public static int makeAnagram(String a, String b) {
+        int[] alphabetsTracker = new int[26];
+        Arrays.fill(alphabetsTracker, 0);
 
-        for (int i = 1; i < characters.length; i++) {
-            if (characters[i] == currentCharacter) {
-                consecutiveCharacters++;
-            }
+        for (char c : a.toCharArray())
+            ++alphabetsTracker[c - 'a'];
+        for (char d : b.toCharArray())
+            --alphabetsTracker[d - 'a'];
 
-            currentCharacter = characters[i];
-        }
+        int deletions = 0;
 
-        return consecutiveCharacters;
+        for (int i = 0; i < alphabetsTracker.length; i++)
+            deletions += Math.abs(alphabetsTracker[i]);
+
+        return deletions;
     }
 }
